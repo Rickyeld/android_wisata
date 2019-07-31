@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    android:background="#E2DFDF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SumateraUtara">
+    <android.support.v7.widget.CardView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sumutcv1"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:id="@+id/rel1"
+            android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_alignStart="@+id/sumutcv1"
+            android:padding="17dp">
+            <!--#1-->
+            <Button
+                android:id="@+id/sumut1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/pantai_tureloto" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="1. Pantai Tureloto"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt1"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/pantai_tureloto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/sumutMap1"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <!--#2-->
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/sumut2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/pulau_asu" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="2. Pulau Asu"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt2"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/pulau_asu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/sumutMap2"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <!--#3-->
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/sumut3"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/pantai_lagundri" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="3. Pantai Lagundri"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt3"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/pantai_lagundri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/sumutMap3"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <!--#4-->
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/sumut4"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/fahombo" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="4. Fahombo"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt4"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/fahombo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/sumutMap4"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <!--#5-->
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/sumut5"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/pulau_hinako" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="5. Pulau Hinako"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt5"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/pulau_hinako"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/sumutMap5"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</ScrollView>

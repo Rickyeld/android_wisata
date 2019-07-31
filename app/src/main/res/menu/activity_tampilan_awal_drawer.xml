@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_prov1"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Nangroe Aceh Darussalam" />
+        <item
+            android:id="@+id/nav_prov2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Riau" />
+        <item
+            android:id="@+id/nav_prov3"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sumatera Utara" />
+        <item
+            android:id="@+id/nav_prov4"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Jambi" />
+        <item
+            android:id="@+id/nav_prov5"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Bengkulu" />
+    </group>
+
+</menu>

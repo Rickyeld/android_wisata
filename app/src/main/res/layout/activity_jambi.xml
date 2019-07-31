@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    android:background="#E2DFDF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jambi">
+    <android.support.v7.widget.CardView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/jambicv1"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:id="@+id/rel1"
+            android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_alignStart="@+id/jambicv1"
+            android:padding="17dp">
+            <!--#1-->
+            <Button
+                android:id="@+id/jambi1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/danau_kaco" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="1. Danau Kaco"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt1"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/danau_kaco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/jambiMap1"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <!--#2-->
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/jambi2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/danau_sipin" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="2. Danau Sipin"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt2"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/danau_sipin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/jambiMap2"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <!--#3-->
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/jambi3"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/jambi_paradise" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="3. Jambi Paradise"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt3"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/jambi_paradise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/jambiMap3"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <!--#4-->
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/jambi4"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/taman_rimba" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="4. Taman Rimba"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt4"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/taman_rimba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/jambiMap4"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <!--#5-->
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/jambi5"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/air_terjun_pancuran_rayo" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textColor="#000"
+                android:text="5. Air Terjun Pancuran Rayo"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt5"
+                android:lineSpacingExtra="5sp"
+                android:textColor="#000"
+                android:text="@string/air_terjun_rayo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/jambiMap5"
+                android:paddingLeft="10dp"
+                android:background="@drawable/map2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</ScrollView>
